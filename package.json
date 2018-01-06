@@ -1,0 +1,20 @@
+{
+  "name": "visioneuse",
+  "version": "1.0.0",
+  "description": "Liseuse/visionneuse avec journalisation en mode pleine page dans le navigateur de documents pa-",
+  "main": "server.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "achraf elomari",
+  "license": "MIT",
+  "devDependencies": {
+    "resume-pdf-to-json": "0.1.4"
+  },
+  "dependencies": {
+    "express": "4.16.2",
+    "express-fileupload": "0.3.0",
+    "multer": "1.3.0",
+    "pdf2json": "1.1.7"
+  }
+}
